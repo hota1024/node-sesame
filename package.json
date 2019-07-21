@@ -1,6 +1,6 @@
 {
-  "name": "hotalog-art-node",
-  "version": "1.0.1",
+  "name": "node-sesame",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
