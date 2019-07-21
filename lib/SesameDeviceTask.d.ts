@@ -29,6 +29,12 @@ export declare class SesameDeviceTask {
     private _task_id;
     private _client;
     constructor(info: SesameDeviceTaskInforamtion, client: SesameClient);
+    /**
+     * Get task result
+     */
     getResult(): Promise<SesameDeviceTaskResult>;
+    /**
+     * Task id
+     */
     readonly task_id: string;
 }
